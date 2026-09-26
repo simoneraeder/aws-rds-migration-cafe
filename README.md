@@ -55,9 +55,16 @@ Projeto prático de arquitetura e infraestrutura em nuvem focado na migração d
 * `order_item`: Detalhamento dos itens pertencentes a cada pedido (`order_number`, `product_id`, `quantity`, `amount`)., `product_id`, `quantity`, `amount`).
 
 ---
+## 📸 Evidências de Validação e Sucesso da Migração
+
+### 1. Interface da Aplicação Web (Visão do Usuário)
+Exibição dos pedidos realizados através do site da aplicação do Café. A interface confirma que a aplicação em PHP está se conectando com sucesso ao banco de dados Amazon RDS, registrando e listando os pedidos em ordem cronológica de realização.
 
 <img width="1137" height="721" alt="Captura de tela 2026-09-26 021408" src="https://github.com/user-attachments/assets/2561b909-c37c-4e51-a905-795e55cf49e2" />
-![Evidência do Banco de Dados]
+
+### 2. Validação dos Dados via CLI no Amazon RDS (Visão do Banco de Dados)
+Consulta SQL realizada diretamente na instância do **Amazon RDS MariaDB** (`cafe_db`) através da interface de linha de comando (CLI). O retorno em tabela demonstra os relacionamentos de *JOIN* entre as tabelas `order`, `order_item` e `product`, validando a integridade dos dados, a estrutura dos registros e a correta atribuição dos valores e quantidades do pedido.
+
 <img width="1027" height="462" alt="Captura de tela 2026-09-26 021609" src="https://github.com/user-attachments/assets/235d0825-5472-489d-b5a8-ed969d878a45" />
 
 
