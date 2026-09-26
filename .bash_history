@@ -13,3 +13,22 @@ aws rds create-db-parameter-group   --db-parameter-group-name cafedb-params   --
 mysql --user=root --password='Re:Start!9'   --host=cafedbinstance.cii4isbettbv.us-west-2.rds.amazonaws.com   cafe_db
 mysql --user=root --password='Re:Start!9'   --host=cafedbinstance.cii4isbettbv.us-west-2.rds.amazonaws.com   cafe_db
 mysql --user=root --password='Re:Start!9'   --host=cafedbinstance.cii4isbettbv.us-west-2.rds.amazonaws.com   cafe_db
+SHOW TABLES;
+mysql --user=root --password='Re:Start!9'   --host=cafedbinstance.cii4isbettbv.us-west-2.rds.amazonaws.com   cafe_db
+DESCRIBE `order`;
+mysql --user=root --password='Re:Start!9'   --host=cafedbinstance.cii4isbettbv.us-west-2.rds.amazonaws.com   cafe_db
+git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@exemplo.com"
+git config --global user.name "Simone Raeder"
+git config --global user.email "simoneraeder@live.com"
+sudo dnf install git -y
+sudo yum install git -y
+git config --global user.name "Simone Raeder"
+git config --global user.email "simoneraeder@live.com"
+git config --list
+git init
+git add .
+git commit -m "docs: adiciona documentacao do projeto de migracao para Amazon RDS"
+git branch -M main
+git remote add origin https://github.com/simoneraeder/aws-rds-migration-cafe
+git push -u origin main
