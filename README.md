@@ -52,13 +52,12 @@ Projeto prático de arquitetura e infraestrutura em nuvem focado na migração d
 
 * `product`: Catálogo de produtos, preços e categorias (`product_group`).
 * `order`: Registro dos pedidos efetuados (`order_number`, `order_date_time`, `amount`).
-* `order_item`: Detalhamento dos itens pertencentes a cada pedido (`order_number`, `product_id`, `quantity`, `amount`).
+* `order_item`: Detalhamento dos itens pertencentes a cada pedido (`order_number`, `product_id`, `quantity`, `amount`)., `product_id`, `quantity`, `amount`).
 
 ---
 
 ## 👤 Autora
 
-Simone Raeder
 **Simone Raeder Blasse Gorni**  
-*Quality Assurance & Cloud Infrastructure Enthusiast*  
+
 * GitHub: [@simoneraeder](https://github.com/simoneraeder)
