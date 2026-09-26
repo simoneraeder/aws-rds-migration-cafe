@@ -58,6 +58,6 @@ Projeto prático de arquitetura e infraestrutura em nuvem focado na migração d
 
 ## 👤 Autora
 
-**Simone Raeder Blasse Gorni**  
+**Simone Raeder**  
 
 * GitHub: [@simoneraeder](https://github.com/simoneraeder)
